@@ -3,3 +3,7 @@ Pillow
 moviepy
 numpy
 gunicorn
+imageio
+imageio-ffmpeg
+decorator
+tqdm
