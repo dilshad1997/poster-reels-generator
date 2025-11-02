@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+<title>Poster Reels Generator</title>
+<style>
+body{
+  font-family:sans-serif;
+  text-align:center;
+  background:linear-gradient(135deg,#6e8efb,#a777e3);
+  color:white;
+  padding:20px;
+}
+input,button{
+  margin:10px;padding:10px;
+  border:none;border-radius:8px;
+}
+button{
+  background:white;color:#333;font-weight:bold;
+}
+</style>
 </head>
 <body>
-    <h1>Welcome to the Poster Reels Generator!</h1>
+<h2>🎬 Poster Reels Generator</h2>
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="image" accept="image/*" required><br>
+  <input type="text" name="text" placeholder="Enter your text" required><br>
+  <button type="submit">Generate Video</button>
+</form>
 </body>
 </html>
