@@ -1,10 +1,10 @@
 Flask==3.0.3
-Pillow==10.3.0
+Pillow==10.0.0
 moviepy==1.0.3
-numpy==1.26.4
-gunicorn==23.0.0
-imageio==2.37.0
-imageio-ffmpeg==0.5.1
+numpy==1.24.4
+gunicorn==21.2.0
+imageio==2.31.1
+imageio-ffmpeg==0.4.9
 decorator==5.1.1
-tqdm==4.67.1
+tqdm==4.66.1
 proglog==0.1.10
