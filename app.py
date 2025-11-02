@@ -1,3 +1,5 @@
+import os
+os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
 from flask import Flask, render_template, request, send_file
 from PIL import Image, ImageDraw, ImageFont
 from moviepy.editor import ImageClip
